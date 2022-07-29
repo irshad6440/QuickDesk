@@ -82,7 +82,7 @@ namespace TicketManagement.Filters
                 }
                 else
                 {
-                    filterContext.HttpContext.Session.Abandon();
+                    filterContext.HttpContext.Session.Abandon(); 
 
                     filterContext.Result = new RedirectToRouteResult
                     (
